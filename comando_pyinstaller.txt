@@ -1,0 +1,59 @@
+Este código Python tem como finalidade gerenciar as atividades avaliativas agendadas pelos professores de determinadas disciplinas, com base na ficha da disciplina vigente para o semestre. É possível selecionar a ementa do curso, a disciplina, o tipo de atividade, a sequência (1ª, 2ª, 3ª, etc.) e a data do evento. Por fim, o usuário pode inserir as informações em uma tela (caixa de texto) e exportá-las para um arquivo PDF, que será salvo em um diretório escolhido pelo usuário.
+
+
+Execute o seguinte comando para transformar o código em um programa executável, importando as dependências necessárias:
+
+
+SEM ÍCONE:
+
+pyinstaller --onefile -w --hidden-import babel.numbers Reviews-Manager_PySide6-pyppeteer.1.0.py
+
+
+
+COM ÍCONE:
+
+pyinstaller --onefile -w --hidden-import babel.numbers --icon=C:\Users\ferna\Project_Development\Projects_Python\Reviews-Manager_PySide6-pyppeteer\icones\ReviewsManager.ico Reviews-Manager_PySide6-pyppeteer.1.0.py
+
+
+
+COM ÍCONE + ÍCONES DOS BOTÕES + ÍCONE TÍTULO GUI (Pasta dos Ícones Dentro do Diretório do Código Fonte):
+
+pyinstaller --onefile -w --hidden-import babel.numbers --icon=C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\Reviews-Manager_PySide6-pyppeteer.1.0.ico --add-data=C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\Reviews-Manager_PySide6-pyppeteer.1.0.ico:icones Reviews-Manager_PySide6-pyppeteer.1.0.py
+
+
+
+pyinstaller --onefile -w --hidden-import babel.numbers --icon=C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\Reviews-Manager_PySide6-pyppeteer.1.0.ico --add-data=C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\Reviews-Manager_PySide6-pyppeteer.1.0.ico:icones "Gerenciador de Atividades.py"
+
+
+
+O comando abaixo funciona, mas não carrega as dependências necessárias para o código em questão.
+pyinstaller --onefile -w Reviews-Manager_PySide6-pyppeteer.1.0.py
+
+
+
+Comando para instalar as bibliotecas e suas dependências (Apenas as instaladas por você):
+pip-chill > requirements.txt
+
+ou (incluindo as dependências instaladas por terceiros):
+pip freeze > requirements.txt
+
+
+
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\Reviews-Manager_PySide6-pyppeteer.1.0.ico"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones\ReviewsManager.ico"
+
+
+
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\requirements.txt"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\Reviews-Manager_PySide6-pyppeteer.1.0.py"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\Reviews-Manager_PySide6-pyppeteer.1.0.txt"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\.idea"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\icones"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\venv"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\banco_dados.db"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\chromium_downloader-PYPPETEER-Corrigida.py"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\chromium_downloader-PYPPETEER-Original.py"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\comando_pyinstaller.txt"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\Gerenciador de Atividades.py"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\LICENSE"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\README.md"
