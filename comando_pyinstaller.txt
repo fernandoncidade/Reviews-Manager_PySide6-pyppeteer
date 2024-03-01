@@ -57,3 +57,10 @@ pip freeze > requirements.txt
 "C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\Gerenciador de Atividades.py"
 "C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\LICENSE"
 "C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\README.md"
+"C:\Users\ferna\PROJETOS\Projetos_Python\Reviews-Manager\Reviews-Manager_PySide6-pyppeteer\rascunho1.py"
+
+
+
+
+
+
