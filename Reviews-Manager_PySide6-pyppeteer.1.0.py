@@ -11,6 +11,8 @@ from pyppeteer import launch
 from qasync import QEventLoop
 
 
+app = QApplication(sys.argv)
+
 database_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "banco_dados.db")
 conn = QSqlDatabase.addDatabase("QSQLITE")
 conn.setDatabaseName(database_path)
@@ -1655,7 +1657,6 @@ def days_from_year_start(date_str):
 
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
     loop = QEventLoop(app)
     asyncio.set_event_loop(loop)
     window = MainWindow()
